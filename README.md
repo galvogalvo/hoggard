@@ -11,10 +11,11 @@ Add or update the build step in `pakacge.json` for your site. It should looks so
   "name": "gourmetski-chef",
   "version": "1.0.0",
   "scripts": {
-    "build": "hoggard"
+    "build": "yarn run hoggard",
+    "dev": "netlify dev"
   },
   "devDependencies": {
-    "@galvogalvo/hoggard": "https://github.com/galvogalvo/hoggard"
+    "@galvogalvo/hoggard": "https://github.com/galvogalvo/hoggard#v0.1-alpha"
   }
 }
 ```
