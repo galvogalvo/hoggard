@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "exit 0",
-    "start": "node index.js",
-    "postinstall": "npm link"
+    "start": "node index.js"
   },
   "files": [
     "index.js",
