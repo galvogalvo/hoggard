@@ -5,7 +5,7 @@ A very, very, very simple static site generator.
 Yarn: `yarn add --dev https://github.com/galvogalvo/hoggard`
 NPM: `npm install --save-dev https://github.com/galvogalvo/hoggard`
 
-Add or update the build step in `pakacge.json` for your site. It should looks something like this:
+Add or update the build step in `pakacge.json` for your site. It should look something like this:
 ```
   {
   "name": "gourmetski-chef",
