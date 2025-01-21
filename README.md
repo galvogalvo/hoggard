@@ -2,6 +2,24 @@
 A very, very, very simple static site generator. 
 
 ## Install
+Yarn: `yarn add --dev https://github.com/galvogalvo/hoggard`
+NPM: `npm install --save-dev https://github.com/galvogalvo/hoggard`
+
+Add or update the build step in `pakacge.json` for your site. It should looks something like this:
+```
+  {
+  "name": "gourmetski-chef",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hoggard"
+  },
+  "devDependencies": {
+    "@galvogalvo/hoggard": "https://github.com/galvogalvo/hoggard"
+  }
+}
+```
+
+To build use `yarn run build` or `npm run build`.
 
 ## Structure
 Requires the following structure:
