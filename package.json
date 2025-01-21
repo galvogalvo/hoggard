@@ -1,0 +1,11 @@
+{
+  "name": "@galvogalvo/hoggard",
+  "version": "1.0.0",
+  "description": "A very, very, very simple static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "@galvogalvo",
+  "license": "ISC"
+}
