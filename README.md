@@ -24,8 +24,11 @@ To build use `yarn run build` or `npm run build`.
 
 ## Structure
 Requires the following structure:
+
 `_components` <---- A directory containing any components you wish to refernce (eg. `footer.html`);
+
 `_pages` <---- HTML pages that can contain references to components (see theming below)
+
 `build` <---- Destination folder, this should contain any _images_, _css_, _js_ or any other static assets
 
 ## Templates
@@ -36,8 +39,18 @@ eg.
 `<!--### footer ###-->` which relates to `\_components\footer.html`
 
 ## Running locally
+`yarn run hoggard`
 
 ## Deploying to Netflify
+Create a `netlify.toml` file that looks like this:
+```
+[build.processing.html]
+  pretty_urls = true
+
+[build]
+  command = "yarn run build"
+  publish = "build"
+```
 
 ## About Hoggard
 This name of this repo is inspired by the batting of [Matthew Hoggard](https://en.wikipedia.org/wiki/Matthew_Hoggard)
